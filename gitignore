@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debugging output
+*.log
+*.jsonl
+*_debug.txt
+param_trace.*
+
+# Simulation outputs
+results/
+figures/
+*.csv
+*.mat
+*.npy
+
+# Secrets / credentials
+.env
+.env.local
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
